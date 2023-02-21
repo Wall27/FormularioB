@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+<section class="col-md-10 offset-md-1 form-1-box wow fadeInUp" style="display: flex;justify-content: center;">
+    <form class="was-validated w-50 p-3" action="mensaje.html" method="get">
+        <fieldset class="border p-2">
+            <legend class="w-auto">Registro de producto</legend>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Código:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                <div class="valid-feedback">Validado.</div>
+                <div class="invalid-feedback">Porfavor ingresa el codigo.</div>
+            </div>   
+        
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Descripcion:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                <div class="valid-feedback">Validado.</div>
+                <div class="invalid-feedback">Porfavor ingresa la Descripcion.</div>
+            </div>  
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Codigo de barra:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                    <div class="valid-feedback">Validado.</div>
+                    <div class="invalid-feedback">Porfavor ingresa el codigo de barra.</div>
+            </div>  
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Precio Unitario:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                    <div class="valid-feedback">Validado.</div>
+                    <div class="invalid-feedback">Porfavor ingresa el precio unitarios.</div>
+            </div>  
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Stock:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                    <div class="valid-feedback">Validado.</div>
+                    <div class="invalid-feedback">Porfavor ingresa la cantidad en Stock.</div>
+            </div>  
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Proveedor:</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" name="uname" required>
+                    </div>
+                    <div class="valid-feedback">Validado.</div>
+                    <div class="invalid-feedback">Porfavor ingresa el Proveedor.</div>
+            </div>  
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Estado:</label>
+                    <div class="col-sm-8">
+                        <input class="form-check-input" type="checkbox" name="remember" required>    
+                        <label>Activo</label>
+                    </div>
+                <div class="valid-feedback">Validado.</div>
+                <div class="invalid-feedback">Seleccione este check para continuar.</div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Categoria</label>
+                <div class="col-sm-8">
+                    <select class="form-select" required name="categoria" id="categoria">
+                        <option value="">Seleccione categoria</option>
+                        <option value="cat1">Categoria 1</option>
+                        <option value="cat2">Categoria 2</option>
+                        <option value="cat3">Categoria 3</option>
+                        <option value="cat4">Categoria 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <button type="submit" value="Submit" class="btn btn-primary">Guardar</button>
+                <button class="btn btn-danger" style="display: flex;float: right;">Cancelar</button>
+            </div>
+        </fieldset>
+     </form>
+</section>
+</body>
+</html>
